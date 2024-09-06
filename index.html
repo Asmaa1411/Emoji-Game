@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Emoji Memory Game</title>
+  <link href="../assets/css/style1.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <div class="container main">
+    <h2>Memory Game</h2>
+    <div id="timer">Time: <span id="time">60</span> seconds.</div>
+    <div class="game"></div>
+    <button class="reset" onclick="window.location.reload();">Reset Game</button>
+  </div>
+  <audio src="./assets/audio/horse.mp3" style="display: none;" loop></audio>
+
+  <!-- <script>
+
+    document.addEventListener('DOMContentLoaded', function () {
+      var gameAudio = new Audio('../assets/audio/musicGame.mp3');
+      gameAudio.play();
+    });
+  </script> -->
+  <script src="../assets/js/game1.js"></script>
+</body>
+
+</html>
